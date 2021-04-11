@@ -21,7 +21,7 @@ public class cheattoswtichcamera : MonoBehaviour
 
     void Update()
     {
-        //Press the L Button to switch cameras
+        //Press the E Button to switch cameras
         if (Input.GetKeyDown(KeyCode.E))
         {
             //Check that the Main Camera is enabled in the Scene, then switch to the other Camera on a key press
